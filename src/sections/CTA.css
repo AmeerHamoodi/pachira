@@ -1,0 +1,46 @@
+.cta {
+    background-color: #2a6078;
+    width: 100%;
+    /* padding-left: calc((100% - 980px) * 0.5); */
+}
+
+.cta_background {
+    padding-left: 30%;
+    margin-right: 40px;
+    background-image: url("https://static.wixstatic.com/media/112477_f5ceee2099864096bce1db04659773d1~mv2.png/v1/fill/w_566,h_378,al_c,q_85,usm_0.66_1.00_0.01/Untitled%20design%20(1).webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 360px;
+    min-width: 566px;
+    padding-left: 40px;
+    color: white;
+    max-width: 570px;
+}
+
+.cta_details {
+    max-width: 400px;
+    /* padding-right: 20%; */
+    font-size: 18px;
+    color: white;
+    vertical-align: baseline;
+    font-family: normal normal normal 16px/1.4em poppins-extralight, poppins, sans-serif;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1092px) {
+    .cta_background {
+        max-width: 100%;
+        flex-grow: 1;
+        margin-right: 0;
+        text-align: center;
+        padding-left: 0;
+        min-width: initial;
+        min-height: 200px;
+    }
+    .cta_details {
+        padding: 0 10px;
+        padding-bottom: 20px;
+        max-width: 800px;
+    }
+}

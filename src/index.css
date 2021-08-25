@@ -1,13 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: poppins-semibold, poppins, sans-serif;
+    white-space: pre-line;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: poppins-semibold, poppins, sans-serif;
+}
+
+p,
+span {
+    font-family: poppins-extralight, poppins, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 792px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 564px) {
+    h1 {
+        font-size: 2.3rem;
+    }
+    h3 {
+        font-size: 0.9rem;
+    }
 }

@@ -1,0 +1,48 @@
+.navbar {
+    width: 100%;
+    min-height: 100px;
+    border-bottom: 15px solid rgb(185, 205, 116);
+}
+
+.nav_link {
+    margin: 0 20px;
+    color: rgb(213, 213, 213);
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.4s;
+    font-size: 1rem;
+}
+
+.nav_link:hover {
+    color: #2a6078;
+}
+
+.nav_link.active {
+    color: rgb(185, 205, 116);
+}
+
+.nav_button {
+    width: 80px;
+    height: 30px;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+
+/* HAMBURGER STYLES */
+
+.hamburger_navbar {
+    width: 100%;
+    border-bottom: 10px solid rgb(185, 205, 116);
+    padding: 10px 10px;
+    display: none;
+}
+
+@media screen and (max-width: 792px) {
+    .navbar {
+        display: none;
+    }
+    .hamburger_navbar {
+        display: block;
+    }
+}

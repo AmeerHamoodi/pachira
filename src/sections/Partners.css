@@ -1,0 +1,48 @@
+.partners {
+    text-align: center;
+    max-width: 890px;
+}
+
+.partners section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.partner_icon {
+    transition: all 0.2s;
+}
+
+.partner_icons {
+    width: 100%;
+    background-color: #2a6078;
+    padding: 20px;
+    transition: all 0.2s;
+}
+
+.partner_details {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+}
+
+.partner_details_content {
+    padding: 0 30px;
+}
+
+@media screen and (max-width: 990px) {
+    .partners {
+        max-width: 100%;
+    }
+    .partner_details {
+        padding: 0;
+    }
+    .partner_icon {
+        font-size: 50px;
+    }
+    .partner_details_content {
+        padding: 0 10px;
+    }
+    .partner_icons {
+        padding: 15px 0;
+    }
+}
